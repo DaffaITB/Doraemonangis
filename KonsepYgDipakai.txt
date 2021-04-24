@@ -1,0 +1,16 @@
+import os, argparse
+
+open("x.csv", "r")
+open("x.csv", "w")
+
+append
+
+def-return
+
+while-break-continue
+try-except
+
+argparse
+
+os.path.abspath(os.getcwd())
+os.mkdir()

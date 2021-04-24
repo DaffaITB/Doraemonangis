@@ -1,0 +1,44 @@
+====================================================================================
+|                                 Konstanta Status                                 |
+====================================================================================
+| loginStatus {True/False}      = True jika sudah login, False jika belum          |
+| userActive  {None/(username)} = mencatat username user/admin yg login            |
+| userRole    {None/Admin/User} = mencatat role yang login, apakah Admin atau User |
+====================================================================================
+
+
+====================================================================================
+|                                  Konstanta File                                  |
+====================================================================================
+| File1 = Seluruh isi file user.csv                                                |
+| cth: [['id', 'username', 'nama', 'alamat', 'password', 'role'],                  |
+|       [1,'ancien', 'Ancien','HeartLand','ancienpass', 'Admin'],                  |
+|       [2, 'ocid', 'M Daffa R', 'Jl. F',  'ocidpass',  'Admin']]                  |
+|                                                                                  |
+| headerFile1 = Judul File user.csv                                                |
+| cth: ['id', 'username', 'nama', 'alamat', 'password', 'role']                    |
+|                                                                                  |
+| dataFile1 = data File user.csv                                                   |
+| cth: [[1,'ancien', 'Ancien','HeartLand','ancienpass', 'Admin'],                  |
+|       [2, 'ocid', 'M Daffa R', 'Jl. F',  'ocidpass',  'Admin']]                  |
+|                                                                                  |
+| File2       = Seluruh isi file gadget.csv                                        |
+| headerFile2 = Judul File gadget.csv                                              |
+| dataFile2   = Data File gadget.csv                                               |
+|                                                                                  |
+| File3       = Seluruh isi file consumable.csv                                    |
+| headerFile3 = Judul File consumable.csv                                          |
+| dataFile3   = Data File consumable.csv                                           |
+|                                                                                  |
+| File4       = Seluruh isi file consumable_history.csv                            |
+| headerFile4 = Judul File consumable_history.csv                                  |
+| dataFile4   = Data File consumable_history.csv                                   |
+|                                                                                  |
+| File5       = Seluruh isi file gadget_borrow_history.csv                         |
+| headerFile5 = Judul File gadget_borrow_history.csv                               |
+| dataFile5   = Data File gadget_borrow_history.csv                                |
+|                                                                                  |
+| File6       = Seluruh isi file gadget_return_history.csv                         |
+| headerFile6 = Judul File gadget_return_history.csv                               |
+| dataFile6   = Data File gadget_return_history.csv                                |
+====================================================================================
